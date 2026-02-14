@@ -184,41 +184,79 @@ In this study, an accurate Python module to predict age, gender, and ethnicity w
 
 ### References
 A. Singh, N. Thakur, and A. Sharma (2016) 'A review of supervised machine learning algorithms', , pp. 1310–1315.
+
 Abirami, B., Subashini, T.S. and Mahavaishnavi, V. (2020) 'Gender and age prediction from real time facial images using CNN', Materials Today : Proceedings, 33, pp. 4708-4712. Available at: https://doi.org/10.1016/j.matpr.2020.08.350.
+
 Benkaddour, M.K., Lahlali, S. and Trabelsi, M. (Feb 09, 2021a) 'Human Age And Gender Classification using Convolutional Neural Network', IEEE. Available at: https://ieeexplore.ieee.org/document/9378708 doi: 10.1109/IHSH51661.2021.9378708.
+
 Benkaddour, M.K., Lahlali, S. and Trabelsi, M. (Feb 09, 2021b) 'Human Age And Gender Classification using Convolutional Neural Network', IEEE. Available at: https://ieeexplore.ieee.org/document/9378708 doi: 10.1109/IHSH51661.2021.9378708.
+
 Dong, X. et al. (2021) 'Dynamical Hyperparameter Optimization via Deep Reinforcement Learning in Tracking', IEEE Transactions on Pattern Analysis and Machine Intelligence, 43(5), pp. 1515-1529. Available at: https://doi.org/10.1109/TPAMI.2019.2956703.
+
 Fan, Z. et al. (2021) 'Image Classification Method Based on Improved KNN Algorithm', Journal of Physics. Conference Series, 1930(1), pp. 12009. Available at: https://doi.org/10.1088/1742-6596/1930/1/012009.
+
 Ghildiyal, A. et al. (Dec 03, 2020) 'Age and Gender Predictions using Artificial Intelligence Algorithm', IEEE. Available at: https://ieeexplore.ieee.org/document/9316053 doi: 10.1109/ICISS49785.2020.9316053.
+
 Girshick, R. (Dec 2015) 'Fast R-CNN', IEEE. Available at: https://ieeexplore.ieee.org/document/7410526 doi: 10.1109/ICCV.2015.169.
+
 Guo, Y. (2021) 'A Study on the Reform of Practical Teaching Curriculum of Preschool education Majors in Higher Vocational High School', Journal of International Education and Development, 5(6), pp. 48-52. Available at: https://doi.org/10.47297/wspiedWSP2516-250009.20210506.
+
 Guodong, G. and Wvu A Study of Large-Scale Ethnicity Estimation with Gender and Age Variations Guowang Mu NCCU. 
+
 Hiremath, J.S., Patil, S.B. and Patil, P.S. (Dec 03, 2021) 'Human Age and Gender Prediction using Machine Learning Algorithm', IEEE. Available at: https://ieeexplore.ieee.org/document/9688503 doi: 10.1109/ICMNWC52512.2021.9688503.
+
 Hua, W. and Tong, Q. (Jun 2020) 'Research on Face Expression Detection Based on Improved Faster R-CNN', IEEE. Available at: https://ieeexplore.ieee.org/document/9182525 doi: 10.1109/ICAICA50127.2020.9182525.
+
 Huaizu Jiang and Learned-Miller, E. (May 2017) 'Face Detection with the Faster R-CNN', IEEE. Available at: https://ieeexplore.ieee.org/document/7961803 doi: 10.1109/FG.2017.82.
+
 Ito, K. et al. (Nov 2018) 'Age and Gender Prediction from Face Images Using Convolutional Neural Network', APSIPA organization. Available at: https://ieeexplore.ieee.org/document/8659655 doi: 10.23919/APSIPA.2018.8659655.
+
 Khan, M. et al. (Oct 2019a) 'Face Detection and Recognition Using OpenCV', IEEE. Available at: https://ieeexplore.ieee.org/document/8974493 doi: 10.1109/ICCCIS48478.2019.8974493.
+
 Khan, M. et al. (Oct 2019b) 'Face Detection and Recognition Using OpenCV', IEEE. Available at: https://ieeexplore.ieee.org/document/8974493 doi: 10.1109/ICCCIS48478.2019.8974493.
+
 Kim, J. and Cho, S. (Jun 2019) 'Evolutionary Optimization of Hyperparameters in Deep Learning Models', IEEE. Available at: https://ieeexplore.ieee.org/document/8790354 doi: 10.1109/CEC.2019.8790354.
+
 Levi, G. and Hassncer, T. (Jun 2015a) 'Age and gender classification using convolutional neural networks', IEEE. Available at: https://ieeexplore.ieee.org/document/7301352 doi: 10.1109/CVPRW.2015.7301352.
+
 Levi, G. and Hassncer, T. (Jun 2015b) 'Age and gender classification using convolutional neural networks', IEEE. Available at: https://ieeexplore.ieee.org/document/7301352 doi: 10.1109/CVPRW.2015.7301352.
+
 LIEW, S.S. et al. (2016) 'Gender classification: a convolutional neural network approach', TURKISH JOURNAL OF ELECTRICAL ENGINEERING &amp; COMPUTER SCIENCES, 24, pp. 1248-1264. Available at: https://doi.org/10.3906/elk-1311-58.
+
 Liu, X., Wu, J. and Chen, S. (Dec 2020) 'Efficient Hyperparameters optimization Through Model-based Reinforcement Learning and Meta-Learning', IEEE. Available at: https://ieeexplore.ieee.org/document/9408061 doi: 10.1109/HPCC-SmartCity-DSS50907.2020.00139.
+
 Mahapatra, S.D. et al. (2021) Piezoelectric Materials for Energy Harvesting and Sensing Applications: Roadmap for Future Smart Materials. Wiley.
+
 Masood, S. et al. (2018) Prediction of Human Ethnicity from Facial Images Using Neural Networks. Springer Singapore.
+
 Moldagulova, A. and Sulaiman, R.B. (May 2017) 'Using KNN algorithm for classification of textual documents', IEEE. Available at: https://ieeexplore.ieee.org/document/8079924 doi: 10.1109/ICITECH.2017.8079924.
+
 Motta, F. et al. (Dec 2019a) 'Hyperparameter Optimization of Topological Features for Machine Learning Applications', IEEE. Available at: https://ieeexplore.ieee.org/document/8999182 doi: 10.1109/ICMLA.2019.00185.
+
 Motta, F. et al. (Dec 2019b) 'Hyperparameter Optimization of Topological Features for Machine Learning Applications', IEEE. Available at: https://ieeexplore.ieee.org/document/8999182 doi: 10.1109/ICMLA.2019.00185.
+
 Opencv, U. et al. (2021a) 'Low-power edge AI face detection and tracking system based on improved MTCNN algorithm', Diànzǐ Jìshù Yīngyòng, 47(5), pp. 40-44. Available at: https://doi.org/10.16157/j.issn.0258-7998.201100.
+
 Opencv, U. et al. (2021b) 'Low-power edge AI face detection and tracking system based on improved MTCNN algorithm', Diànzǐ Jìshù Yīngyòng, 47(5), pp. 40-44. Available at: https://doi.org/10.16157/j.issn.0258-7998.201100.
+
 Phuiig, S.L. et al. NAIVE BAYES FACEINONFACE CLASSIFIER: A STUDY OF PREPROCESSING AND FEATURE EXTRACTION TECHNIQUES. 
+
 Putranto, E.B., Situmorang, P.A. and Girsang, A.S. (Nov 2016) 'Face recognition using eigenface with naive Bayes', IEEE. Available at: https://ieeexplore.ieee.org/document/7951418 doi: 10.1109/KICSS.2016.7951418.
+
 Rebinth, A. and Kumar, S.M. (2020) Wavelet Packet Transform-Based Image Classification for Computer-Aided Glaucoma Diagnosis Using Naïve Bayes Classifier. Springer Singapore.
+
 Shanthi, N. et al. (Jan 20, 2022) 'Gender and Age Detection using Deep Convolutional Neural Networks', IEEE. Available at: https://ieeexplore.ieee.org/document/9716377 doi: 10.1109/ICSSIT53264.2022.9716377.
+
 Shawki, N. et al. (Dec 04, 2021) 'On Automating Hyperparameter Optimization for Deep Learning Applications', IEEE. Available at: https://ieeexplore.ieee.org/document/9672266 doi: 10.1109/SPMB52430.2021.9672266.
+
 Srinivas, N. et al. (May 2017) 'Age, Gender, and Fine-Grained Ethnicity Prediction Using Convolutional Neural Networks for the East Asian Face Dataset', IEEE. Available at: https://ieeexplore.ieee.org/document/7961848 doi: 10.1109/FG.2017.118.
+
 Taunk, K. et al. (May 2019a) 'A Brief Review of Nearest Neighbor Algorithm for Learning and Classification', IEEE. Available at: https://ieeexplore.ieee.org/document/9065747 doi: 10.1109/ICCS45141.2019.9065747.
+
 Taunk, K. et al. (May 2019b) 'A Brief Review of Nearest Neighbor Algorithm for Learning and Classification', IEEE. Available at: https://ieeexplore.ieee.org/document/9065747 doi: 10.1109/ICCS45141.2019.9065747.
+
 Wang, Y. et al. (Oct 2020) 'CNN Hyperparameter Optimization Based on CNN Visualization and Perception Hash Algorithm', IEEE. Available at: https://ieeexplore.ieee.org/document/9277761 doi: 10.1109/DCABES50732.2020.00029.
+
 Will Koehrsen (2018) 'A Conceptual Explanation of Bayesian Hyperparameter Optimization for Machine Learning', .
+
 Wistuba, M., Schilling, N. and Schmidt-Thieme, L. (Oct 2015) 'Learning hyperparameter optimization initializations', IEEE. Available at: https://ieeexplore.ieee.org/document/7344817 doi: 10.1109/DSAA.2015.7344817.
