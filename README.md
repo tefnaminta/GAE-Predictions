@@ -1,4 +1,4 @@
-<img width="695" height="868" alt="image" src="https://github.com/user-attachments/assets/5ceb8e9d-7410-43dc-aad8-fd8b82d501ff" /># GAE-Predictions
+# GAE-Predictions
 Human Age, Gender and Ethnicity Prediction using Machine Learning Algorithms
 
 Abstract
