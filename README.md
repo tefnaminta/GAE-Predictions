@@ -84,10 +84,12 @@ The four separate machine learning models KNN, Naive Bayes, CNN, and RCNN are in
 Regression and classification problems are the foundation of the KNN algorithm, which has the advantages of being easy to build and having a short learning curve. The process for classifying it is as follows: Decide which sample will be tested, select the K examples under test's K nearest neighbours in the centre of all the training images, and then classify the K specimens under testing in the K Closest neighbours using majority vote. In this way, the K samples that are being tested are classified and identified (Fan et al., 2021). The K-Nearest-Neighbours (KNN) method is indeed a non-parametric classification technique since it makes no assumptions about the fundamental dataset. It is renowned for being simple to use and effective. It is a supervised learning algorithm. To use a labelled training set where the data points are split up into many groups, it is possible to determine the category of the unlabelled data (Taunk et al., May 2019b) .
 
 <img width="245" height="254" alt="image" src="https://github.com/user-attachments/assets/3dc1d067-a780-4105-a24b-c04bc6709bf1" />
-Figure 2: The Distribution of Data points of KNN Model
+
+ Figure 2: The Distribution of Data points of KNN Model
 
 <img width="294" height="202" alt="image" src="https://github.com/user-attachments/assets/79935e0b-f351-411e-b6f4-83078aef86b1" />
-Figure 3: The first point obtained representative of KNN Model
+
+ Figure 3: The first point obtained representative of KNN Model
 
 When utilising Distance measure as our similarity metric, it is clear that numerous data sets that share the same classifier are close to each other in many local locations. The greatest feasible representation of each local region may be provided by the centralized data point di, as shown in Figure 3, along with extra info such as N(p1), the total amount of locations within the local region, and S(p1), the degree to which the the furthest data point inside the particular region resembles p1. If we use those representations as a model to depict the full training dataset, the amount of information values necessary for classification would be significantly reduced. This will make the classifying process more efficient. It naturally follows that if a new data point is included in a representation, it will be classified using that representation's class label. If not, we use each border as a set of data to calculate the range between the new value so each representative's nearest border before categorising the new data point using KNN (Guo, 2021). Given that the KNN model is one that works best for categorization, it is anticipated to perform well in the prediction of age, gender, and ethnicity. This model, which has shown good performance in image classification, can predict multiclassification of age and ethnicity of face image and binary classification of gender with good accuracy.
 
@@ -96,14 +98,18 @@ When utilising Distance measure as our similarity metric, it is clear that numer
 A popular classification technique is K-nearest neighbours (KNN). It is frequently employed due to its simple interpretation and quick calculation. In this algorithm, the choice of the parameter k is extremely important. It is necessary to access two parameters on various k values: the training error rate and the validation error rate. The KNN algorithm's text classification domain is very broad. For instance, a system was proposed to achieve good governance and democratic participation by addressing how to classify citizen complaints during the city development process  (Moldagulova and Sulaiman, May 2017) . The categorization of the unlabeled data is determined by a variety of factors. KNN is most frequently used as a classifier. Data is categorised using nearby or adjacent training sets in a specific location. This method is used because it computes quickly and is simple to use. It uses the Euclidean distance to locate its nearest neighbours when working with continuous data (Taunk et al., May 2019b) .
 
 <img width="803" height="403" alt="image" src="https://github.com/user-attachments/assets/d010c121-e938-4ae3-98d7-219bdc3b619e" />
-Figure 4: Age, Gender and Ethnicity Prediction using KNN Model
+
+ Figure 4: Age, Gender and Ethnicity Prediction using KNN Model
 
 As shown in the figure above, the image space and the age, gender, and ethnicity data to be predicted are fed into three separate KNN models and trained. Using this train model for prediction. Using pre-partitioned data for training. Similarly, check how well the trained model predicts and see the accuracy of the model used by data for testing. The accuracy scores of all three models of the KNN algorithm are stored into a common data frame. The performance of the KNN algorithm is then evaluated in comparison to other models using this data.
 
-<img width="230" height="190" alt="image" src="https://github.com/user-attachments/assets/bfc3b744-415f-4253-a304-ecf8772515cd" />Figure 5: Gender Classification Trained by KNN Model
+<img width="230" height="190" alt="image" src="https://github.com/user-attachments/assets/bfc3b744-415f-4253-a304-ecf8772515cd" />
+
+ Figure 5: Gender Classification Trained by KNN Model
 
 <img width="207" height="179" alt="image" src="https://github.com/user-attachments/assets/fc23d26c-ebfa-4000-aeec-cb169d8e8a91" />
-Figure 6: Gender Classification Prediction using Knn Model
+
+ Figure 6: Gender Classification Prediction using Knn Model
 
 Figure 5 provides information about the training of the model for KNN gender prediction. Accordingly, a given data is separated into male and female clusters based on the value of each of its features. As Figure 6 shows, if a new datapoint is brought to the surface in Figure 5, the KNN model predicts which cluster it should be classified into. For that, K number of datapoints closest to the new datapoint are found from the surface using Euclidean distance method. It then predicts which cluster most of those datapoints belong to and predicts the class of that cluster as a result.
 
@@ -146,20 +152,9 @@ Table 1 shows that certain categories of age, gender, and ethnicity are represen
 Using four different machine learning algorithms, three different prediction techniques, and their hyperparameters, this research was able to develop the best real-time model. The results can be utilised to conduct a comparative analysis of the four different algorithms and their hyperparameters based on their accuracy scores.
 Prediction	Model	Best Parameter	Accuracy
 
-Age	K-Nearest Neighbours	{'leaf_size': 1, 'n_neighbors': 2, 'p': 1, 'weights': 'distance'}	54.66%
-	Convolutional Neural Network	{'dropout': 0.2,'optimizer':'adam','num_units':132}	81.77%
-	Naive Bayes	{'alpha': 1000}	32.77%
-	Faster R-CNN	{'dropout': 0.2,'optimizer':'rmsprop','num_units':32}	57.77%
-Gender	K-Nearest Neighbours	{'leaf_size': 1, 'n_neighbors': 1, 'p': 1, 'weights': 'uniform'}	68.85%
-	Convolutional Neural Network	{'dropout': 0.2,'optimizer':'adam','num_units':128}	86.91%
-	Naive Bayes	{'alpha': 1e-05}	68.91%
-	Faster R-CNN	{'dropout': 0.2,'optimizer':'adam','num_units':32}	68.91%
-Ethnicity	K-Nearest Neighbours	{'leaf_size': 1, 'n_neighbors': 1, 'p': 1, 'weights': 'uniform'}	23.77%
-	Convolutional Neural Network	{'dropout': 0.5,'optimizer':'rmsprop','num_units':512}	83.45%
-	Naive Bayes	{'alpha': 1e-05}	34.45%
-	Faster R-CNN	{'dropout': 0.5,'optimizer':'adam','num_units':32}	64.45%
-	
-Table 2: Models Accuracy Comparison Table
+<img width="927" height="529" alt="image" src="https://github.com/user-attachments/assets/4c880acc-7e1e-44ab-8d42-739187163ab3" />
+
+ Table 2: Models Accuracy Comparison Table
 
 Table 2 displays the comparison results and hyperparameters for the four distinct machine learning and deep learning methods. When analysing the KNN algorithm, it predicts age and gender with an accuracy of over 50%, but it predicts ethnicity with an accuracy that is too low. When the Naive Bayes method is used, it provides the lowest accuracy in all predictions when compared to all other algorithms. The naive Bayes algorithm need not be the worst method for predictions based just on this scenario. It is possible for an algorithm to provide less accuracy owing to a variety of factors, such as the failure of a pre-processing approach for a certain algorithm, inconsistent data, etc. 
 	It is abundantly evident from the chart that the convolutional neural network's accuracy score provides the greatest score in that. The model provides forecasts that are more than 80% correct. Based on this investigation, the best hyperparameter values for the CNN model may be understood. Since two of three different prediction models are offering excellent accuracy with this optimizer and dropout value, the Adam optimizer may be used as the best optimizer in this situation, and 0.2 is the optimum number for dropout in any circumstance. Most scientists and developers use Adam optimizer while performing image prediction using the CNN model. We can deduct from this research why practically all researchers choose the Adam optimizer for their CNN model. However, based solely on the input data, we can also deduce from this finding that the number of units can be any appropriate amount for high accuracy prediction.
@@ -183,5 +178,5 @@ Research on facial recognition is frequent these days. My initial aim and purpos
 	
 ### 5.	Summary and Conclusion
 
-	In this study, an accurate Python module to predict age, gender, and ethnicity was processed using a machine learning algorithm. The accuracy of various machine learning algorithms and their parameter values were compared and analysed, and the disadvantages and benefits of each machine learning algorithm were then determined. The importance of a parameter value in a machine learning method was also determined. A large number of applications be using this technique since the human faces are thought to be an especially rich collection of information, making face recognition one of the most exciting jobs in pattern recognition in recent years. Gender and age are visual characteristics that can be highly helpful for a variety of applications. For instance, an automatic system for predicting gender and age is used to profile clients who really are interested in a specific product as well as for target advertising. Age and classification techniques have been investigated for a long time (Benkaddour, Lahlali and Trabelsi, Feb 09, 2021b)  . 
+In this study, an accurate Python module to predict age, gender, and ethnicity was processed using a machine learning algorithm. The accuracy of various machine learning algorithms and their parameter values were compared and analysed, and the disadvantages and benefits of each machine learning algorithm were then determined. The importance of a parameter value in a machine learning method was also determined. A large number of applications be using this technique since the human faces are thought to be an especially rich collection of information, making face recognition one of the most exciting jobs in pattern recognition in recent years. Gender and age are visual characteristics that can be highly helpful for a variety of applications. For instance, an automatic system for predicting gender and age is used to profile clients who really are interested in a specific product as well as for target advertising. Age and classification techniques have been investigated for a long time (Benkaddour, Lahlali and Trabelsi, Feb 09, 2021b)  . 
 	According to this study, the CNN model provides a more accurate prediction of age, gender, and ethnicity. For each prediction model used in this prediction, the accuracy rate is greater than 80%. The accuracy was increased here by using the hyperparameter optimization technique. It doesn't provide greater accuracy than the prior works when compared, nevertheless. It demonstrates that improving hyperparameters alone does not significantly alter the accuracy of face detection models. However, the RCNN model provides predictions with greater than 50% accuracy. Given that the image data wasn't initially in a format that allowed for Faster RCNN prediction, this is clearly a positive outcome. Before the model was used to generate the forecast, a number of pre-processing procedures were applied to the data. It is rarely employed in face categorization methods. This prediction result enables us to establish that quicker RCNN algorithms can be used for face identification methods provided we make use of a sizable image dataset. I advise using new datasets in the future, and pre-processing techniques can be changed to produce results more effectively. Utilizing the pretrained VGG model with CNN or integrating other models with CNN can increase accuracy. It is also possible to increase accuracy by enhancing the quicker RCNN model that is already in use.
